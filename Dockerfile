@@ -1,5 +1,5 @@
-# Use the official Python image as the base image
-FROM python:3.9-slim
+# Use the official Python image as the base image (Python 3.11 to support click==8.3.0)
+FROM python:3.13-slim
 
 # Set the working directory inside the container
 WORKDIR /app
